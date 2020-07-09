@@ -36,6 +36,7 @@ vertical-align: baseline;
 
   h1{
     font-family:'Chelsea Market';
+    font-size: 300%;
   }
 
   #second {
@@ -44,31 +45,38 @@ vertical-align: baseline;
     color:white;
     padding: 2% 2% 2% 2%; 
     width: 95%;
+  }
 
+  #first{
+    padding:2% 0;
   }
 
   #first-img{
     display:inline-block;
-    height:20%;
-    width:20%;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
   }
 
   #first-text{
     display:inline-block;
-    padding:4% 0;
+    vertical-align: top;
+    padding:1% 0% 0% 0%;
   }
 
   #second-img-one{
     display:inline-block;
-    height:10%;
-    width:10%;
+    height:8%;
+    width:8%;
     padding:1% 0;
   }
 
   #second-img-two{
     display:inline-block;
-    height:10%;
-    width:10%;
+    height:8%;
+    width:8%;
     padding:1% 0;
   }
 
@@ -85,14 +93,13 @@ vertical-align: baseline;
   }
 
   nav a{
-    margin:0 10px;
+    margin:10px 100px;
     border:1px solid lightgray;
     padding:20px;
     display:inline-block;
     border-radius:20px;
     color:white;
     text-decoration:none;
-    margin-bottom:20px;
   }
 
   #plan{
@@ -117,7 +124,9 @@ vertical-align: baseline;
   }
 
   #footer-img{
-    height:20%;
+    position: top;
+    overflow: hidden;
+    height:350px;
     width:100%;
     padding: 0% 0% 1% 0%;
   }
