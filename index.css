@@ -30,6 +30,24 @@ vertical-align: baseline;
     text-align: center;
 }
 
+/* Animation Stretch Area */
+  @keyframes planani {
+    from {background-color: #FF764E;}
+    to {background-color: #5ED3EB;}
+  }
+
+  @keyframes learnani {
+    from {background-color: #5ED3EB;}
+    to {background-color: #FFCD69;}
+  }
+
+  @keyframes involvedani {
+    from {background-color: #FFCD69;}
+    to {background-color: #FF764E;}
+  }
+
+/* End Animation Stretch */
+
   body{
     font-family:'Roboto Mono';
   }
@@ -104,14 +122,29 @@ vertical-align: baseline;
 
   #plan{
     background:#FF764E;
+    /* Stretch Animation */
+    animation-name: planani;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
   }
 
   #learn{
     background:#5ED3EB;
+        /* Stretch Animation */
+        animation-name: learnani;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
   }
 
   #involved{
     background:#FFCD69;
+        /* Stretch Animation */
+        animation-name: involvedani;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
   }
 
   header{
