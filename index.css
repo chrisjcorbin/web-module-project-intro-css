@@ -1,0 +1,165 @@
+/*Reset Area Start*/
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+/*Reset Area End*/
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border:1px solid grey;
+    text-align: center;
+}
+
+/* Animation Stretch Area */
+  @keyframes planani {
+    from {background-color: #FF764E;}
+    to {background-color: #5ED3EB;}
+  }
+
+  @keyframes learnani {
+    from {background-color: #5ED3EB;}
+    to {background-color: #FFCD69;}
+  }
+
+  @keyframes involvedani {
+    from {background-color: #FFCD69;}
+    to {background-color: #FF764E;}
+  }
+
+/* End Animation Stretch */
+
+  body{
+    font-family:'Roboto Mono';
+  }
+
+  h1{
+    font-family:'Chelsea Market';
+    font-size: 300%;
+  }
+
+  #second {
+    display:inline-block;
+    background-color:#DDB9A3;
+    color:white;
+    padding: 2% 2% 2% 2%; 
+    width: 95%;
+  }
+
+  #first{
+    padding:2% 0;
+  }
+
+  #first-img{
+    display:inline-block;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  #first-text{
+    display:inline-block;
+    vertical-align: top;
+    padding:1% 0% 0% 0%;
+  }
+
+  #second-img-one{
+    display:inline-block;
+    height:8%;
+    width:8%;
+    padding:1% 0;
+  }
+
+  #second-img-two{
+    display:inline-block;
+    height:8%;
+    width:8%;
+    padding:1% 0;
+  }
+
+  #second-text-one{
+    display:inline-block;
+    width:100%;
+    padding: 1% 40% 1% 40%;
+  }
+
+  #second-text-two{
+    display:inline-block;
+    width:100%;
+    padding: 1% 40% 1% 40%;
+  }
+
+  nav a{
+    margin:10px 100px;
+    border:1px solid lightgray;
+    padding:20px;
+    display:inline-block;
+    border-radius:20px;
+    color:white;
+    text-decoration:none;
+  }
+
+  #plan{
+    background:#FF764E;
+    /* Stretch Animation */
+    animation-name: planani;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  #learn{
+    background:#5ED3EB;
+        /* Stretch Animation */
+        animation-name: learnani;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+  }
+
+  #involved{
+    background:#FFCD69;
+        /* Stretch Animation */
+        animation-name: involvedani;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+  }
+
+  header{
+    display:inline-block;
+  }
+
+  footer{
+    display:inline-block;
+    background-color:#F9E7DC;
+  }
+
+  #footer-img{
+    position: top;
+    overflow: hidden;
+    height:350px;
+    width:100%;
+    padding: 0% 0% 1% 0%;
+  }
